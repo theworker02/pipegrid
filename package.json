@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/pipegrid",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Pipe digests and grid fingerprints for local integrity checks.",
+  "bin": {
+    "pipegrid": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/pipegrid.git"
+  },
+  "homepage": "https://theworker02.github.io/pipegrid/",
+  "keywords": [
+    "pipe",
+    "grid",
+    "hash",
+    "cli",
+    "toolkit"
+  ]
+}
